@@ -12,6 +12,7 @@ jobs:
   flutter-job:
     name: Run Flutter test and analyzer
     runs-on: ubuntu-latest
+    working-directory: ./mobile
     steps:
       - name: Check out Git repository
         uses: actions/checkout@v2
