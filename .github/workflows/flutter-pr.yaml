@@ -12,6 +12,9 @@ jobs:
   flutter-job:
     name: Run Flutter test and analyzer
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./app
     steps:
       - name: Check out Git repository
         uses: actions/checkout@v2
@@ -20,17 +23,13 @@ jobs:
         uses: subosito/flutter-action@v2.3.0
         with:
           channel: "stable"
-        working-directory: ./mobile
       - run: flutter --version
 
       - name: Install dependencies
-        working-directory: ./mobile
         run: flutter pub get
 
       - name: Run Format
-        working-directory: ./mobile
         run: dart format --set-exit-if-changed .
 
       - name: Run Analyzer
-        working-directory: ./mobile
         run: flutter analyze .
