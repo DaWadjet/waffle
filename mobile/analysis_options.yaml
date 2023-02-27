@@ -1,0 +1,17 @@
+include: package:very_good_analysis/analysis_options.yaml
+analyzer:
+  exclude:
+    - lib/generated/intl/messages_de.dart
+    - lib/generated/intl/messages_en.dart
+    - "**.g.dart"
+    - "**.freezed.dart"
+linter:
+  rules:
+    prefer_single_quotes: true
+    public_member_api_docs: false
+    flutter_style_todos: false
+    prefer_asserts_with_message: false
+    prefer_if_elements_to_conditional_expressions: false
+    sort_pub_dependencies: false
+    no_default_cases: false
+    always_put_required_named_parameters_first: false
