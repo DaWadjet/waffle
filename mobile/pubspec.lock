@@ -233,14 +233,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.1.1"
-  cross_file:
-    dependency: transitive
-    description:
-      name: cross_file
-      sha256: "0b0036e8cccbfbe0555fd83c1d31a6f30b77a96b598b35a5d36dd41f718695e9"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.3.3+4"
   crypto:
     dependency: transitive
     description:
@@ -424,14 +416,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.6.14"
-  flutter_plugin_android_lifecycle:
-    dependency: transitive
-    description:
-      name: flutter_plugin_android_lifecycle
-      sha256: "4bef634684b2c7f3468c77c766c831229af829a0cd2d4ee6c1b99558bd14e5d2"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.0.8"
   flutter_portal:
     dependency: "direct main"
     description:
@@ -551,46 +535,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.3.0"
-  image_picker:
-    dependency: "direct main"
-    description:
-      name: image_picker
-      sha256: "22207768556b82d55ec70166824350fee32298732d5efa4d6e756f848f51f66a"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.8.6+3"
-  image_picker_android:
-    dependency: transitive
-    description:
-      name: image_picker_android
-      sha256: "68d067baf7f6e401b1124ee83dd6967e67847314250fd68012aab34a69beb344"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.8.5+7"
-  image_picker_for_web:
-    dependency: transitive
-    description:
-      name: image_picker_for_web
-      sha256: "66fc6e3877bbde82c33d122f3588777c3784ac5bd7d1cdd79213ef7aecb85b34"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.1.11"
-  image_picker_ios:
-    dependency: transitive
-    description:
-      name: image_picker_ios
-      sha256: "39aa70b5f1e5e7c94585b9738632d5fdb764a5655e40cd9e7b95fbd2fc50c519"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.8.6+9"
-  image_picker_platform_interface:
-    dependency: transitive
-    description:
-      name: image_picker_platform_interface
-      sha256: "1991219d9dbc42a99aff77e663af8ca51ced592cd6685c9485e3458302d3d4f8"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.6.3"
   infinite_scroll_pagination:
     dependency: "direct main"
     description:
@@ -716,22 +660,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.0"
-  package_info_plus:
-    dependency: transitive
-    description:
-      name: package_info_plus
-      sha256: "8df5ab0a481d7dc20c0e63809e90a588e496d276ba53358afc4c4443d0a00697"
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.0.3"
-  package_info_plus_platform_interface:
-    dependency: transitive
-    description:
-      name: package_info_plus_platform_interface
-      sha256: "9bc8ba46813a4cc42c66ab781470711781940780fd8beddd0c3da62506d3a6c6"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.0.1"
   path:
     dependency: transitive
     description:
@@ -916,38 +844,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.27.7"
-  sentry:
-    dependency: transitive
-    description:
-      name: sentry
-      sha256: "81c1f32496ff04476d6ddfe5894215b1034d185301d2e3dffd272853392c5ea7"
-      url: "https://pub.dev"
-    source: hosted
-    version: "6.20.1"
-  sentry_dio:
-    dependency: "direct main"
-    description:
-      name: sentry_dio
-      sha256: "50fa69da36b962213df15f42720122d2bc132a9b96cb56cafa0b188aefeb9297"
-      url: "https://pub.dev"
-    source: hosted
-    version: "6.20.1"
-  sentry_flutter:
-    dependency: "direct main"
-    description:
-      name: sentry_flutter
-      sha256: "5ca2c8d86c220f7ad3109bedceb2c51b0e90bac5218e732be98ea2cba8006461"
-      url: "https://pub.dev"
-    source: hosted
-    version: "6.20.1"
-  sentry_logging:
-    dependency: "direct main"
-    description:
-      name: sentry_logging
-      sha256: "8c14de68f661883470c53f345bd46a33b9a3fd06fb739e02495429d5b9dfca7c"
-      url: "https://pub.dev"
-    source: hosted
-    version: "6.20.1"
   shared_preferences:
     dependency: "direct main"
     description:
