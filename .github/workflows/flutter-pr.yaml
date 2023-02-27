@@ -5,6 +5,8 @@ on:
       - develop
       - main
       - "flutter/**"
+    paths-ignore:
+      - '**.md'
 permissions:
   checks: write
   contents: write
