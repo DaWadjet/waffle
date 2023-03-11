@@ -27,6 +27,8 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
+After starting up the project locally, you can visit the Swagger API descriptions [here](http://127.0.0.1:8000/docs).
+
 ### Generate dependency list
 
 ```bash
